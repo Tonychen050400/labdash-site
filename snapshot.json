@@ -1,0 +1,7523 @@
+{
+  "generated_at": "2026-08-22T22:45:37+00:00",
+  "generated_local": "2026-08-22 18:45",
+  "collect_seconds": 4.6,
+  "host": "holy7c24603.rc.fas.harvard.edu",
+  "cluster": "Cannon",
+  "accounts": [
+    "ydu_lab",
+    "kempner_ydu_lab"
+  ],
+  "groups": [
+    "ydu_lab",
+    "kempner_ydu_lab"
+  ],
+  "jobs": {
+    "running": [
+      {
+        "jobid": "40412947",
+        "user": "angelz",
+        "account": "ydu_lab",
+        "partition": "gpu_requeue",
+        "state": "R",
+        "name": "interactive",
+        "nodelist": "holygpu7c2313",
+        "reason": "",
+        "elapsed_s": 222420,
+        "limit_s": 259200,
+        "gpus": 4,
+        "cpus": 8,
+        "mem_bytes": 536870912000,
+        "nodes": 1,
+        "gpu_model": "RTX PRO 6000"
+      },
+      {
+        "jobid": "41051500",
+        "user": "haonan",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "multiview_haptics_phase1_20260817_124528",
+        "nodelist": "holygpu8a13403",
+        "reason": "",
+        "elapsed_s": 59953,
+        "limit_s": 172800,
+        "gpus": 4,
+        "cpus": 48,
+        "mem_bytes": 274877906944,
+        "nodes": 1,
+        "gpu_model": "H100"
+      },
+      {
+        "jobid": "41183979",
+        "user": "wxiong",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_h200",
+        "state": "R",
+        "name": "cepi05_120k",
+        "nodelist": "holygpu8a06302",
+        "reason": "",
+        "elapsed_s": 25420,
+        "limit_s": 172800,
+        "gpus": 4,
+        "cpus": 32,
+        "mem_bytes": 206158430208,
+        "nodes": 1,
+        "gpu_model": "H200"
+      },
+      {
+        "jobid": "40499795",
+        "user": "zhiyi24",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "wan13b_rgb_ray_mot",
+        "nodelist": "holygpu8a09302",
+        "reason": "",
+        "elapsed_s": 157559,
+        "limit_s": 172800,
+        "gpus": 2,
+        "cpus": 24,
+        "mem_bytes": 536870912000,
+        "nodes": 1,
+        "gpu_model": "H200"
+      },
+      {
+        "jobid": "41040718",
+        "user": "xswu",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "rlb3_rgbw_fs_train",
+        "nodelist": "holygpu8a03601",
+        "reason": "",
+        "elapsed_s": 84484,
+        "limit_s": 172800,
+        "gpus": 2,
+        "cpus": 32,
+        "mem_bytes": 343597383680,
+        "nodes": 1,
+        "gpu_model": "H200"
+      },
+      {
+        "jobid": "41043640",
+        "user": "susielu",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "interactive",
+        "nodelist": "holygpu8a05401",
+        "reason": "",
+        "elapsed_s": 83122,
+        "limit_s": 86280,
+        "gpus": 2,
+        "cpus": 32,
+        "mem_bytes": 274877906944,
+        "nodes": 1,
+        "gpu_model": "H200"
+      },
+      {
+        "jobid": "41072002",
+        "user": "susielu",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "interactive",
+        "nodelist": "holygpu8a03502",
+        "reason": "",
+        "elapsed_s": 69426,
+        "limit_s": 86280,
+        "gpus": 2,
+        "cpus": 32,
+        "mem_bytes": 274877906944,
+        "nodes": 1,
+        "gpu_model": "H200"
+      },
+      {
+        "jobid": "41100397",
+        "user": "xswu",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "tr_stack_1to3_rgb_2g",
+        "nodelist": "holygpu8a06102",
+        "reason": "",
+        "elapsed_s": 62406,
+        "limit_s": 172800,
+        "gpus": 2,
+        "cpus": 32,
+        "mem_bytes": 343597383680,
+        "nodes": 1,
+        "gpu_model": "H200"
+      },
+      {
+        "jobid": "41201288",
+        "user": "akiruga",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_h100",
+        "state": "R",
+        "name": "my_2_h100",
+        "nodelist": "holygpu8a17203",
+        "reason": "",
+        "elapsed_s": 15471,
+        "limit_s": 172800,
+        "gpus": 2,
+        "cpus": 32,
+        "mem_bytes": 274877906944,
+        "nodes": 1,
+        "gpu_model": "H100"
+      },
+      {
+        "jobid": "41159344",
+        "user": "akiruga",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "ov384_full_rq",
+        "nodelist": "holygpu8a15102",
+        "reason": "",
+        "elapsed_s": 2743,
+        "limit_s": 28800,
+        "gpus": 2,
+        "cpus": 16,
+        "mem_bytes": 375809638400,
+        "nodes": 1,
+        "gpu_model": "H100"
+      },
+      {
+        "jobid": "40698570",
+        "user": "jfan425",
+        "account": "ydu_lab",
+        "partition": "gpu_requeue",
+        "state": "R",
+        "name": "vllm-qwen3-14b-r1",
+        "nodelist": "holygpu8a29406",
+        "reason": "",
+        "elapsed_s": 172324,
+        "limit_s": 172800,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 137438953472,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "40698571",
+        "user": "jfan425",
+        "account": "ydu_lab",
+        "partition": "gpu_requeue",
+        "state": "R",
+        "name": "vllm-qwen3-14b-r2",
+        "nodelist": "holygpu8a29406",
+        "reason": "",
+        "elapsed_s": 171900,
+        "limit_s": 172800,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 137438953472,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "40698573",
+        "user": "jfan425",
+        "account": "ydu_lab",
+        "partition": "gpu_requeue",
+        "state": "R",
+        "name": "vllm-qwen3-8b-r1",
+        "nodelist": "holygpu8a31306",
+        "reason": "",
+        "elapsed_s": 171900,
+        "limit_s": 172800,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 137438953472,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "40698574",
+        "user": "jfan425",
+        "account": "ydu_lab",
+        "partition": "gpu_requeue",
+        "state": "R",
+        "name": "vllm-qwen3-8b-r3",
+        "nodelist": "holygpu8a31306",
+        "reason": "",
+        "elapsed_s": 171900,
+        "limit_s": 172800,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 137438953472,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "40698575",
+        "user": "jfan425",
+        "account": "ydu_lab",
+        "partition": "gpu_requeue",
+        "state": "R",
+        "name": "vllm-qwen3-8b-r4",
+        "nodelist": "holygpu8a31306",
+        "reason": "",
+        "elapsed_s": 101656,
+        "limit_s": 172800,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 137438953472,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "41050837",
+        "user": "willgao",
+        "account": "ydu_lab",
+        "partition": "gpu",
+        "state": "R",
+        "name": "ckpt_dagger_gemma_v13gpt",
+        "nodelist": "holygpu8a22602",
+        "reason": "",
+        "elapsed_s": 76549,
+        "limit_s": 172800,
+        "gpus": 1,
+        "cpus": 32,
+        "mem_bytes": 268435456000,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "41043476",
+        "user": "yuyaomit",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "rae-ceval-bl",
+        "nodelist": "holygpu8a19504",
+        "reason": "",
+        "elapsed_s": 74610,
+        "limit_s": 144000,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 51539607552,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "41120036",
+        "user": "raywang4",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_h100",
+        "state": "R",
+        "name": "teach_b4_r5",
+        "nodelist": "holygpu8a13302",
+        "reason": "",
+        "elapsed_s": 53415,
+        "limit_s": 172800,
+        "gpus": 1,
+        "cpus": 12,
+        "mem_bytes": 137438953472,
+        "nodes": 1,
+        "gpu_model": "H100"
+      },
+      {
+        "jobid": "40914694",
+        "user": "gxu",
+        "account": "ydu_lab",
+        "partition": "gpu_requeue",
+        "state": "R",
+        "name": "mas-test",
+        "nodelist": "holygpu8a26504",
+        "reason": "",
+        "elapsed_s": 50771,
+        "limit_s": 172800,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 214748364800,
+        "nodes": 1,
+        "gpu_model": "H200"
+      },
+      {
+        "jobid": "41149413",
+        "user": "willgao",
+        "account": "ydu_lab",
+        "partition": "seas_gpu",
+        "state": "R",
+        "name": "ckpt_dagger_gpt_wmdi1",
+        "nodelist": "holygpu8a16201",
+        "reason": "",
+        "elapsed_s": 44187,
+        "limit_s": 172800,
+        "gpus": 1,
+        "cpus": 32,
+        "mem_bytes": 274877906944,
+        "nodes": 1,
+        "gpu_model": "H200"
+      },
+      {
+        "jobid": "41208461",
+        "user": "raywang4",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_h100",
+        "state": "R",
+        "name": "teach_b4_fdw20k",
+        "nodelist": "holygpu8a17204",
+        "reason": "",
+        "elapsed_s": 15471,
+        "limit_s": 172800,
+        "gpus": 1,
+        "cpus": 12,
+        "mem_bytes": 137438953472,
+        "nodes": 1,
+        "gpu_model": "H100"
+      },
+      {
+        "jobid": "41230808",
+        "user": "hbalim",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "spawn-multi",
+        "nodelist": "holygpu7c1710",
+        "reason": "",
+        "elapsed_s": 10925,
+        "limit_s": 86340,
+        "gpus": 1,
+        "cpus": 1,
+        "mem_bytes": 33554432000,
+        "nodes": 1,
+        "gpu_model": "RTX PRO 6000"
+      },
+      {
+        "jobid": "41230822",
+        "user": "hbalim",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "spawn-multi",
+        "nodelist": "holygpu7c1710",
+        "reason": "",
+        "elapsed_s": 10925,
+        "limit_s": 86340,
+        "gpus": 1,
+        "cpus": 1,
+        "mem_bytes": 33554432000,
+        "nodes": 1,
+        "gpu_model": "RTX PRO 6000"
+      },
+      {
+        "jobid": "41230840",
+        "user": "hbalim",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "spawn-multi",
+        "nodelist": "holygpu7c1710",
+        "reason": "",
+        "elapsed_s": 10925,
+        "limit_s": 86340,
+        "gpus": 1,
+        "cpus": 1,
+        "mem_bytes": 33554432000,
+        "nodes": 1,
+        "gpu_model": "RTX PRO 6000"
+      },
+      {
+        "jobid": "41230845",
+        "user": "hbalim",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "spawn-multi",
+        "nodelist": "holygpu7c1710",
+        "reason": "",
+        "elapsed_s": 10925,
+        "limit_s": 86340,
+        "gpus": 1,
+        "cpus": 1,
+        "mem_bytes": 33554432000,
+        "nodes": 1,
+        "gpu_model": "RTX PRO 6000"
+      },
+      {
+        "jobid": "41230877",
+        "user": "hbalim",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "spawn-multi",
+        "nodelist": "holygpu7c1713",
+        "reason": "",
+        "elapsed_s": 10925,
+        "limit_s": 86340,
+        "gpus": 1,
+        "cpus": 1,
+        "mem_bytes": 33554432000,
+        "nodes": 1,
+        "gpu_model": "RTX PRO 6000"
+      },
+      {
+        "jobid": "41230899",
+        "user": "hbalim",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "spawn-multi",
+        "nodelist": "holygpu7c1713",
+        "reason": "",
+        "elapsed_s": 10925,
+        "limit_s": 86340,
+        "gpus": 1,
+        "cpus": 1,
+        "mem_bytes": 33554432000,
+        "nodes": 1,
+        "gpu_model": "RTX PRO 6000"
+      },
+      {
+        "jobid": "41230902",
+        "user": "hbalim",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "spawn-multi",
+        "nodelist": "holygpu7c1713",
+        "reason": "",
+        "elapsed_s": 10925,
+        "limit_s": 86340,
+        "gpus": 1,
+        "cpus": 1,
+        "mem_bytes": 33554432000,
+        "nodes": 1,
+        "gpu_model": "RTX PRO 6000"
+      },
+      {
+        "jobid": "41251757",
+        "user": "wye",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_h200",
+        "state": "R",
+        "name": "m_p3_T1_mine",
+        "nodelist": "holygpu8a03504",
+        "reason": "",
+        "elapsed_s": 5417,
+        "limit_s": 21600,
+        "gpus": 1,
+        "cpus": 3,
+        "mem_bytes": 25769803776,
+        "nodes": 1,
+        "gpu_model": "H200"
+      },
+      {
+        "jobid": "41252934",
+        "user": "wye",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_h200",
+        "state": "R",
+        "name": "m_p1_G2_er_mine",
+        "nodelist": "holygpu8a05301",
+        "reason": "",
+        "elapsed_s": 5063,
+        "limit_s": 21600,
+        "gpus": 1,
+        "cpus": 3,
+        "mem_bytes": 25769803776,
+        "nodes": 1,
+        "gpu_model": "H200"
+      },
+      {
+        "jobid": "41246315",
+        "user": "xswu",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "bash",
+        "nodelist": "holygpu8a09302",
+        "reason": "",
+        "elapsed_s": 2743,
+        "limit_s": 21600,
+        "gpus": 1,
+        "cpus": 2,
+        "mem_bytes": 128849018880,
+        "nodes": 1,
+        "gpu_model": "H200"
+      },
+      {
+        "jobid": "41257275",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "shr-th",
+        "nodelist": "holygpu8a19601",
+        "reason": "",
+        "elapsed_s": 2528,
+        "limit_s": 10800,
+        "gpus": 1,
+        "cpus": 4,
+        "mem_bytes": 34359738368,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "41257276",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "shr-th",
+        "nodelist": "holygpu8a19601",
+        "reason": "",
+        "elapsed_s": 2528,
+        "limit_s": 10800,
+        "gpus": 1,
+        "cpus": 4,
+        "mem_bytes": 34359738368,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "41257277",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "shr-th",
+        "nodelist": "holygpu8a19601",
+        "reason": "",
+        "elapsed_s": 2528,
+        "limit_s": 10800,
+        "gpus": 1,
+        "cpus": 4,
+        "mem_bytes": 34359738368,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "41257278",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "shr-th",
+        "nodelist": "holygpu8a19601",
+        "reason": "",
+        "elapsed_s": 2528,
+        "limit_s": 10800,
+        "gpus": 1,
+        "cpus": 4,
+        "mem_bytes": 34359738368,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "41257279",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "shr-th",
+        "nodelist": "holygpu8a19601",
+        "reason": "",
+        "elapsed_s": 2528,
+        "limit_s": 10800,
+        "gpus": 1,
+        "cpus": 4,
+        "mem_bytes": 34359738368,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "41257280",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "shr-th",
+        "nodelist": "holygpu8a19601",
+        "reason": "",
+        "elapsed_s": 2528,
+        "limit_s": 10800,
+        "gpus": 1,
+        "cpus": 4,
+        "mem_bytes": 34359738368,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "41253910",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "shr-th",
+        "nodelist": "holygpu8a19603",
+        "reason": "",
+        "elapsed_s": 2528,
+        "limit_s": 10800,
+        "gpus": 1,
+        "cpus": 4,
+        "mem_bytes": 34359738368,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "41257293",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "shr-tr",
+        "nodelist": "holygpu8a19603",
+        "reason": "",
+        "elapsed_s": 2527,
+        "limit_s": 10800,
+        "gpus": 1,
+        "cpus": 4,
+        "mem_bytes": 34359738368,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "41257294",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "shr-tr",
+        "nodelist": "holygpu8a19603",
+        "reason": "",
+        "elapsed_s": 2527,
+        "limit_s": 10800,
+        "gpus": 1,
+        "cpus": 4,
+        "mem_bytes": 34359738368,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "41257295",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "shr-tr",
+        "nodelist": "holygpu8a19603",
+        "reason": "",
+        "elapsed_s": 2527,
+        "limit_s": 10800,
+        "gpus": 1,
+        "cpus": 4,
+        "mem_bytes": 34359738368,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "41257296",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "shr-tr",
+        "nodelist": "holygpu8a19604",
+        "reason": "",
+        "elapsed_s": 2527,
+        "limit_s": 10800,
+        "gpus": 1,
+        "cpus": 4,
+        "mem_bytes": 34359738368,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "41257297",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "shr-tr",
+        "nodelist": "holygpu8a19604",
+        "reason": "",
+        "elapsed_s": 2527,
+        "limit_s": 10800,
+        "gpus": 1,
+        "cpus": 4,
+        "mem_bytes": 34359738368,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "41257298",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "shr-tr",
+        "nodelist": "holygpu8a19604",
+        "reason": "",
+        "elapsed_s": 2527,
+        "limit_s": 10800,
+        "gpus": 1,
+        "cpus": 4,
+        "mem_bytes": 34359738368,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "41257299",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "shr-tr",
+        "nodelist": "holygpu8a19604",
+        "reason": "",
+        "elapsed_s": 2527,
+        "limit_s": 10800,
+        "gpus": 1,
+        "cpus": 4,
+        "mem_bytes": 34359738368,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "41253911",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "shr-tr",
+        "nodelist": "holygpu8a19605",
+        "reason": "",
+        "elapsed_s": 2526,
+        "limit_s": 10800,
+        "gpus": 1,
+        "cpus": 4,
+        "mem_bytes": 34359738368,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "41253914",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "vtau-anchor",
+        "nodelist": "holygpu8a19605",
+        "reason": "",
+        "elapsed_s": 2526,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "41253915",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "vtau-s1",
+        "nodelist": "holygpu8a19606",
+        "reason": "",
+        "elapsed_s": 2526,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "41253916",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "vtau-s2",
+        "nodelist": "holygpu8a19606",
+        "reason": "",
+        "elapsed_s": 2517,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "41253917",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "vtau-s3",
+        "nodelist": "holygpu7c1713",
+        "reason": "",
+        "elapsed_s": 2517,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "RTX PRO 6000"
+      },
+      {
+        "jobid": "41253918",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "vtau-s4",
+        "nodelist": "holygpu7c1713",
+        "reason": "",
+        "elapsed_s": 2517,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "RTX PRO 6000"
+      },
+      {
+        "jobid": "41253919",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "vtau-s5",
+        "nodelist": "holygpu7c1713",
+        "reason": "",
+        "elapsed_s": 2517,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "RTX PRO 6000"
+      },
+      {
+        "jobid": "41254581",
+        "user": "xswu",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "R",
+        "name": "route38_icv4",
+        "nodelist": "holygpu8a03201",
+        "reason": "",
+        "elapsed_s": 2517,
+        "limit_s": 43200,
+        "gpus": 1,
+        "cpus": 12,
+        "mem_bytes": 137438953472,
+        "nodes": 1,
+        "gpu_model": "H200"
+      },
+      {
+        "jobid": "41257881",
+        "user": "atong",
+        "account": "ydu_lab",
+        "partition": "gpu_test",
+        "state": "R",
+        "name": "interactive",
+        "nodelist": "holygpu7c26306",
+        "reason": "",
+        "elapsed_s": 2250,
+        "limit_s": 5400,
+        "gpus": 1,
+        "cpus": 1,
+        "mem_bytes": 67108864000,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "41258373",
+        "user": "jaysonzlin",
+        "account": "ydu_lab",
+        "partition": "gpu_test",
+        "state": "R",
+        "name": ".fasrcood/sys/dashboard/sys/RemoteDesktop",
+        "nodelist": "holygpu7c26105",
+        "reason": "",
+        "elapsed_s": 2089,
+        "limit_s": 18000,
+        "gpus": 1,
+        "cpus": 4,
+        "mem_bytes": 34359738368,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "41255588",
+        "user": "raywang4",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_h100",
+        "state": "R",
+        "name": "toy14adn_fd",
+        "nodelist": "holygpu8a11303",
+        "reason": "",
+        "elapsed_s": 1761,
+        "limit_s": 21600,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 68719476736,
+        "nodes": 1,
+        "gpu_model": "H100"
+      },
+      {
+        "jobid": "41259048",
+        "user": "atong",
+        "account": "ydu_lab",
+        "partition": "gpu_test",
+        "state": "R",
+        "name": "interactive",
+        "nodelist": "holygpu7c26306",
+        "reason": "",
+        "elapsed_s": 1753,
+        "limit_s": 5400,
+        "gpus": 1,
+        "cpus": 1,
+        "mem_bytes": 67108864000,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "41260650",
+        "user": "wye",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_h200",
+        "state": "R",
+        "name": "m_p3_T2_deep",
+        "nodelist": "holygpu8a03101",
+        "reason": "",
+        "elapsed_s": 1218,
+        "limit_s": 21600,
+        "gpus": 1,
+        "cpus": 3,
+        "mem_bytes": 25769803776,
+        "nodes": 1,
+        "gpu_model": "H200"
+      },
+      {
+        "jobid": "41261020",
+        "user": "zhiyi24",
+        "account": "ydu_lab",
+        "partition": "gpu_test",
+        "state": "R",
+        "name": "sgetgpu-test-1g",
+        "nodelist": "holygpu7c26105",
+        "reason": "",
+        "elapsed_s": 1101,
+        "limit_s": 43200,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 68719476736,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "40382271",
+        "user": "haonan",
+        "account": "ydu_lab",
+        "partition": "unrestricted",
+        "state": "R",
+        "name": "agent-host",
+        "nodelist": "holy7c18606",
+        "reason": "",
+        "elapsed_s": 277617,
+        "limit_s": 518400,
+        "gpus": 0,
+        "cpus": 8,
+        "mem_bytes": 34359738368,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "40628459",
+        "user": "xswu",
+        "account": "ydu_lab",
+        "partition": "serial_requeue",
+        "state": "R",
+        "name": "rot50_watch_v5",
+        "nodelist": "holy7c02312",
+        "reason": "",
+        "elapsed_s": 199544,
+        "limit_s": 259200,
+        "gpus": 0,
+        "cpus": 2,
+        "mem_bytes": 8589934592,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "40945898",
+        "user": "junxuans",
+        "account": "ydu_lab",
+        "partition": "serial_requeue",
+        "state": "R",
+        "name": "sg_var",
+        "nodelist": "holy7c02505",
+        "reason": "",
+        "elapsed_s": 101653,
+        "limit_s": 259200,
+        "gpus": 0,
+        "cpus": 8,
+        "mem_bytes": 17179869184,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "40945900",
+        "user": "junxuans",
+        "account": "ydu_lab",
+        "partition": "serial_requeue",
+        "state": "R",
+        "name": "sg_var",
+        "nodelist": "holy7c02506",
+        "reason": "",
+        "elapsed_s": 101651,
+        "limit_s": 259200,
+        "gpus": 0,
+        "cpus": 8,
+        "mem_bytes": 17179869184,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "40945901",
+        "user": "junxuans",
+        "account": "ydu_lab",
+        "partition": "serial_requeue",
+        "state": "R",
+        "name": "sg_var",
+        "nodelist": "holy7c02508",
+        "reason": "",
+        "elapsed_s": 101651,
+        "limit_s": 259200,
+        "gpus": 0,
+        "cpus": 8,
+        "mem_bytes": 17179869184,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "40945904",
+        "user": "junxuans",
+        "account": "ydu_lab",
+        "partition": "serial_requeue",
+        "state": "R",
+        "name": "sg_var",
+        "nodelist": "holy7c02606",
+        "reason": "",
+        "elapsed_s": 101651,
+        "limit_s": 259200,
+        "gpus": 0,
+        "cpus": 8,
+        "mem_bytes": 17179869184,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "40945905",
+        "user": "junxuans",
+        "account": "ydu_lab",
+        "partition": "serial_requeue",
+        "state": "R",
+        "name": "sg_var",
+        "nodelist": "holy7c02606",
+        "reason": "",
+        "elapsed_s": 101651,
+        "limit_s": 259200,
+        "gpus": 0,
+        "cpus": 8,
+        "mem_bytes": 17179869184,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "40945906",
+        "user": "junxuans",
+        "account": "ydu_lab",
+        "partition": "serial_requeue",
+        "state": "R",
+        "name": "sg_var",
+        "nodelist": "holy7c02608",
+        "reason": "",
+        "elapsed_s": 101651,
+        "limit_s": 259200,
+        "gpus": 0,
+        "cpus": 8,
+        "mem_bytes": 17179869184,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "40945913",
+        "user": "junxuans",
+        "account": "ydu_lab",
+        "partition": "serial_requeue",
+        "state": "R",
+        "name": "sg_var",
+        "nodelist": "holy7c02610",
+        "reason": "",
+        "elapsed_s": 101650,
+        "limit_s": 259200,
+        "gpus": 0,
+        "cpus": 8,
+        "mem_bytes": 17179869184,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "40945914",
+        "user": "junxuans",
+        "account": "ydu_lab",
+        "partition": "serial_requeue",
+        "state": "R",
+        "name": "sg_var",
+        "nodelist": "holy7c02610",
+        "reason": "",
+        "elapsed_s": 101650,
+        "limit_s": 259200,
+        "gpus": 0,
+        "cpus": 8,
+        "mem_bytes": 17179869184,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "40992069",
+        "user": "xswu",
+        "account": "ydu_lab",
+        "partition": "serial_requeue",
+        "state": "R",
+        "name": "stack_rgb_eval_watch",
+        "nodelist": "holy7c02311",
+        "reason": "",
+        "elapsed_s": 94062,
+        "limit_s": 259200,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 4294967296,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "40992096",
+        "user": "xswu",
+        "account": "ydu_lab",
+        "partition": "serial_requeue",
+        "state": "R",
+        "name": "stack_rdf_eval_watch",
+        "nodelist": "holy7c02403",
+        "reason": "",
+        "elapsed_s": 94050,
+        "limit_s": 259200,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 4294967296,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "40945917",
+        "user": "junxuans",
+        "account": "ydu_lab",
+        "partition": "serial_requeue",
+        "state": "R",
+        "name": "sg_var",
+        "nodelist": "holy7c02302",
+        "reason": "",
+        "elapsed_s": 91068,
+        "limit_s": 259200,
+        "gpus": 0,
+        "cpus": 8,
+        "mem_bytes": 17179869184,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "40945918",
+        "user": "junxuans",
+        "account": "ydu_lab",
+        "partition": "serial_requeue",
+        "state": "R",
+        "name": "sg_var",
+        "nodelist": "holy7c02401",
+        "reason": "",
+        "elapsed_s": 91068,
+        "limit_s": 259200,
+        "gpus": 0,
+        "cpus": 8,
+        "mem_bytes": 17179869184,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "40945892",
+        "user": "junxuans",
+        "account": "ydu_lab",
+        "partition": "serial_requeue",
+        "state": "R",
+        "name": "sg_var",
+        "nodelist": "holy7c02402",
+        "reason": "",
+        "elapsed_s": 91068,
+        "limit_s": 259200,
+        "gpus": 0,
+        "cpus": 8,
+        "mem_bytes": 17179869184,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41055421",
+        "user": "wfy",
+        "account": "ydu_lab",
+        "partition": "shared",
+        "state": "R",
+        "name": "interactive",
+        "nodelist": "holy7c06208",
+        "reason": "",
+        "elapsed_s": 74471,
+        "limit_s": 259200,
+        "gpus": 0,
+        "cpus": 16,
+        "mem_bytes": 12884901888,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41217627",
+        "user": "haoyuchen54",
+        "account": "ydu_lab",
+        "partition": "sapphire",
+        "state": "R",
+        "name": "dirscan",
+        "nodelist": "holy8a32608",
+        "reason": "",
+        "elapsed_s": 13930,
+        "limit_s": 57600,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 4294967296,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41217628",
+        "user": "haoyuchen54",
+        "account": "ydu_lab",
+        "partition": "sapphire",
+        "state": "R",
+        "name": "dirscan",
+        "nodelist": "holy8a32608",
+        "reason": "",
+        "elapsed_s": 13930,
+        "limit_s": 57600,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 4294967296,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41217631",
+        "user": "haoyuchen54",
+        "account": "ydu_lab",
+        "partition": "sapphire",
+        "state": "R",
+        "name": "dirscan",
+        "nodelist": "holy8a32608",
+        "reason": "",
+        "elapsed_s": 13930,
+        "limit_s": 57600,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 4294967296,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41217634",
+        "user": "haoyuchen54",
+        "account": "ydu_lab",
+        "partition": "sapphire",
+        "state": "R",
+        "name": "dirscan",
+        "nodelist": "holy8a32607",
+        "reason": "",
+        "elapsed_s": 13930,
+        "limit_s": 57600,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 4294967296,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41217635",
+        "user": "haoyuchen54",
+        "account": "ydu_lab",
+        "partition": "sapphire",
+        "state": "R",
+        "name": "dirscan",
+        "nodelist": "holy8a32607",
+        "reason": "",
+        "elapsed_s": 13930,
+        "limit_s": 57600,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 4294967296,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41217636",
+        "user": "haoyuchen54",
+        "account": "ydu_lab",
+        "partition": "sapphire",
+        "state": "R",
+        "name": "dirscan",
+        "nodelist": "holy8a32607",
+        "reason": "",
+        "elapsed_s": 13930,
+        "limit_s": 57600,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 4294967296,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41217656",
+        "user": "haoyuchen54",
+        "account": "ydu_lab",
+        "partition": "sapphire",
+        "state": "R",
+        "name": "dirscan",
+        "nodelist": "holy8a32607",
+        "reason": "",
+        "elapsed_s": 13929,
+        "limit_s": 57600,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 4294967296,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41217657",
+        "user": "haoyuchen54",
+        "account": "ydu_lab",
+        "partition": "sapphire",
+        "state": "R",
+        "name": "dirscan",
+        "nodelist": "holy8a32607",
+        "reason": "",
+        "elapsed_s": 13929,
+        "limit_s": 57600,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 4294967296,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41217658",
+        "user": "haoyuchen54",
+        "account": "ydu_lab",
+        "partition": "sapphire",
+        "state": "R",
+        "name": "dirscan",
+        "nodelist": "holy8a32607",
+        "reason": "",
+        "elapsed_s": 13929,
+        "limit_s": 57600,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 4294967296,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41217659",
+        "user": "haoyuchen54",
+        "account": "ydu_lab",
+        "partition": "sapphire",
+        "state": "R",
+        "name": "dirscan",
+        "nodelist": "holy8a32606",
+        "reason": "",
+        "elapsed_s": 13929,
+        "limit_s": 57600,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 4294967296,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41217660",
+        "user": "haoyuchen54",
+        "account": "ydu_lab",
+        "partition": "sapphire",
+        "state": "R",
+        "name": "dirscan",
+        "nodelist": "holy8a32606",
+        "reason": "",
+        "elapsed_s": 13929,
+        "limit_s": 57600,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 4294967296,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41217661",
+        "user": "haoyuchen54",
+        "account": "ydu_lab",
+        "partition": "sapphire",
+        "state": "R",
+        "name": "dirscan",
+        "nodelist": "holy8a32606",
+        "reason": "",
+        "elapsed_s": 13929,
+        "limit_s": 57600,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 4294967296,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41217662",
+        "user": "haoyuchen54",
+        "account": "ydu_lab",
+        "partition": "sapphire",
+        "state": "R",
+        "name": "dirscan",
+        "nodelist": "holy8a32606",
+        "reason": "",
+        "elapsed_s": 13929,
+        "limit_s": 57600,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 4294967296,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41217663",
+        "user": "haoyuchen54",
+        "account": "ydu_lab",
+        "partition": "sapphire",
+        "state": "R",
+        "name": "dirscan",
+        "nodelist": "holy8a32606",
+        "reason": "",
+        "elapsed_s": 13929,
+        "limit_s": 57600,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 4294967296,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41217664",
+        "user": "haoyuchen54",
+        "account": "ydu_lab",
+        "partition": "sapphire",
+        "state": "R",
+        "name": "dirscan",
+        "nodelist": "holy8a32606",
+        "reason": "",
+        "elapsed_s": 13929,
+        "limit_s": 57600,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 4294967296,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41217665",
+        "user": "haoyuchen54",
+        "account": "ydu_lab",
+        "partition": "sapphire",
+        "state": "R",
+        "name": "dirscan",
+        "nodelist": "holy8a32606",
+        "reason": "",
+        "elapsed_s": 13929,
+        "limit_s": 57600,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 4294967296,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41217671",
+        "user": "haoyuchen54",
+        "account": "ydu_lab",
+        "partition": "sapphire",
+        "state": "R",
+        "name": "dirscan",
+        "nodelist": "holy8a32606",
+        "reason": "",
+        "elapsed_s": 13927,
+        "limit_s": 57600,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 4294967296,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41217672",
+        "user": "haoyuchen54",
+        "account": "ydu_lab",
+        "partition": "sapphire",
+        "state": "R",
+        "name": "dirscan",
+        "nodelist": "holy8a32606",
+        "reason": "",
+        "elapsed_s": 13927,
+        "limit_s": 57600,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 4294967296,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41217673",
+        "user": "haoyuchen54",
+        "account": "ydu_lab",
+        "partition": "sapphire",
+        "state": "R",
+        "name": "dirscan",
+        "nodelist": "holy8a32606",
+        "reason": "",
+        "elapsed_s": 13927,
+        "limit_s": 57600,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 4294967296,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41217674",
+        "user": "haoyuchen54",
+        "account": "ydu_lab",
+        "partition": "sapphire",
+        "state": "R",
+        "name": "dirscan",
+        "nodelist": "holy8a32606",
+        "reason": "",
+        "elapsed_s": 13927,
+        "limit_s": 57600,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 4294967296,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41217675",
+        "user": "haoyuchen54",
+        "account": "ydu_lab",
+        "partition": "sapphire",
+        "state": "R",
+        "name": "dirscan",
+        "nodelist": "holy8a32606",
+        "reason": "",
+        "elapsed_s": 13927,
+        "limit_s": 57600,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 4294967296,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41217677",
+        "user": "haoyuchen54",
+        "account": "ydu_lab",
+        "partition": "sapphire",
+        "state": "R",
+        "name": "dirscan",
+        "nodelist": "holy8a32601",
+        "reason": "",
+        "elapsed_s": 13927,
+        "limit_s": 57600,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 4294967296,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41217678",
+        "user": "haoyuchen54",
+        "account": "ydu_lab",
+        "partition": "sapphire",
+        "state": "R",
+        "name": "dirscan",
+        "nodelist": "holy8a32601",
+        "reason": "",
+        "elapsed_s": 13927,
+        "limit_s": 57600,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 4294967296,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41217679",
+        "user": "haoyuchen54",
+        "account": "ydu_lab",
+        "partition": "sapphire",
+        "state": "R",
+        "name": "dirscan",
+        "nodelist": "holy8a32601",
+        "reason": "",
+        "elapsed_s": 13927,
+        "limit_s": 57600,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 4294967296,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41217680",
+        "user": "haoyuchen54",
+        "account": "ydu_lab",
+        "partition": "sapphire",
+        "state": "R",
+        "name": "dirscan",
+        "nodelist": "holy8a32601",
+        "reason": "",
+        "elapsed_s": 13927,
+        "limit_s": 57600,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 4294967296,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41217704",
+        "user": "haoyuchen54",
+        "account": "ydu_lab",
+        "partition": "sapphire",
+        "state": "R",
+        "name": "dirscan",
+        "nodelist": "holy8a32601",
+        "reason": "",
+        "elapsed_s": 13925,
+        "limit_s": 57600,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 4294967296,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41217606",
+        "user": "haoyuchen54",
+        "account": "ydu_lab",
+        "partition": "sapphire",
+        "state": "R",
+        "name": "dirscan",
+        "nodelist": "holy8a32601",
+        "reason": "",
+        "elapsed_s": 13925,
+        "limit_s": 57600,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 4294967296,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41221893",
+        "user": "haoyuchen54",
+        "account": "ydu_lab",
+        "partition": "sapphire",
+        "state": "R",
+        "name": "groupcensus",
+        "nodelist": "holy8a24105",
+        "reason": "",
+        "elapsed_s": 12845,
+        "limit_s": 72000,
+        "gpus": 0,
+        "cpus": 2,
+        "mem_bytes": 8589934592,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "40945912",
+        "user": "junxuans",
+        "account": "ydu_lab",
+        "partition": "serial_requeue",
+        "state": "R",
+        "name": "sg_var",
+        "nodelist": "holy7c16101",
+        "reason": "",
+        "elapsed_s": 3562,
+        "limit_s": 259200,
+        "gpus": 0,
+        "cpus": 8,
+        "mem_bytes": 17179869184,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "39816905",
+        "user": "haoyuchen54",
+        "account": "ydu_lab",
+        "partition": "shared",
+        "state": "R",
+        "name": "labdash",
+        "nodelist": "holy7c24603",
+        "reason": "",
+        "elapsed_s": 6,
+        "limit_s": 600,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 2147483648,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      }
+    ],
+    "pending": [
+      {
+        "jobid": "41132766",
+        "user": "lyq",
+        "account": "ydu_lab",
+        "partition": "gpu_requeue",
+        "state": "PD",
+        "name": "n0-a1-908022e",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 7200,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 68719476736,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "40664209",
+        "user": "xswu",
+        "account": "ydu_lab",
+        "partition": "gpu_requeue",
+        "state": "PD",
+        "name": "rot_all50_rq",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 259200,
+        "gpus": 8,
+        "cpus": 96,
+        "mem_bytes": 1288490188800,
+        "nodes": 2,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41177530",
+        "user": "lyq",
+        "account": "ydu_lab",
+        "partition": "gpu_requeue",
+        "state": "PD",
+        "name": "wm-pusht-smk",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 900,
+        "gpus": 1,
+        "cpus": 4,
+        "mem_bytes": 34359738368,
+        "nodes": 1,
+        "gpu_model": "H200"
+      },
+      {
+        "jobid": "41169967",
+        "user": "xswu",
+        "account": "ydu_lab",
+        "partition": "gpu_requeue",
+        "state": "PD",
+        "name": "rlb3_rgb_e1500",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 172800,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 171798691840,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41153596",
+        "user": "xswu",
+        "account": "ydu_lab",
+        "partition": "gpu_requeue",
+        "state": "PD",
+        "name": "rlb3_rgb_e1200",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 172800,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 171798691840,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "39860648",
+        "user": "jfan425",
+        "account": "ydu_lab",
+        "partition": "gpu_requeue",
+        "state": "PD",
+        "name": "vllm-qwen3-8b-r5",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 172800,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 137438953472,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "40698577",
+        "user": "jfan425",
+        "account": "ydu_lab",
+        "partition": "gpu_requeue",
+        "state": "PD",
+        "name": "vllm-qwen3-8b-r6",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 172800,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 137438953472,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "41182543",
+        "user": "xswu",
+        "account": "ydu_lab",
+        "partition": "gpu_requeue",
+        "state": "PD",
+        "name": "rlb3_rgb_e1600",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 172800,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 171798691840,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41193032",
+        "user": "xswu",
+        "account": "ydu_lab",
+        "partition": "gpu_requeue",
+        "state": "PD",
+        "name": "rlb3_rgb_e1700",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 172800,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 171798691840,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41198316",
+        "user": "angelz",
+        "account": "ydu_lab",
+        "partition": "gpu_requeue",
+        "state": "PD",
+        "name": "cosmos_pai_4rtx",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 259200,
+        "gpus": 4,
+        "cpus": 16,
+        "mem_bytes": 274877906944,
+        "nodes": 1,
+        "gpu_model": "RTX PRO 6000"
+      },
+      {
+        "jobid": "41201087",
+        "user": "xswu",
+        "account": "ydu_lab",
+        "partition": "gpu_requeue",
+        "state": "PD",
+        "name": "rlb3_rgb_e1800",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 172800,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 171798691840,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41209833",
+        "user": "xswu",
+        "account": "ydu_lab",
+        "partition": "gpu_requeue",
+        "state": "PD",
+        "name": "rlb3_rgb_e1900",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 172800,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 171798691840,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41224920",
+        "user": "xswu",
+        "account": "ydu_lab",
+        "partition": "gpu_requeue",
+        "state": "PD",
+        "name": "rlb3_rgb_e2000",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 172800,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 171798691840,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "39858775",
+        "user": "jfan425",
+        "account": "ydu_lab",
+        "partition": "gpu_requeue",
+        "state": "PD",
+        "name": "vllm-qwen3-32b-r1",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 172800,
+        "gpus": 2,
+        "cpus": 16,
+        "mem_bytes": 137438953472,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "41241618",
+        "user": "xswu",
+        "account": "ydu_lab",
+        "partition": "gpu_requeue",
+        "state": "PD",
+        "name": "rlb3_rgb_e2100",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 172800,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 171798691840,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41255015",
+        "user": "xswu",
+        "account": "ydu_lab",
+        "partition": "gpu_requeue",
+        "state": "PD",
+        "name": "rlb3_rgb_e2200",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 172800,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 171798691840,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41255699",
+        "user": "xswu",
+        "account": "ydu_lab",
+        "partition": "gpu_requeue",
+        "state": "PD",
+        "name": "bash",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 21600,
+        "gpus": 1,
+        "cpus": 2,
+        "mem_bytes": 214748364800,
+        "nodes": 1,
+        "gpu_model": "A100"
+      },
+      {
+        "jobid": "41262934",
+        "user": "alaprevotte",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_h100",
+        "state": "PD",
+        "name": "gpcw_rldx_fidelity4",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 3600,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41260252",
+        "user": "wfy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "eventtok-nvk",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 21600,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41260252",
+        "user": "wfy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "eventtok-nvk",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 21600,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41260252",
+        "user": "wfy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "eventtok-nvk",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 21600,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41260252",
+        "user": "wfy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "eventtok-nvk",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 21600,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41260252",
+        "user": "wfy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "eventtok-nvk",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 21600,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41260252",
+        "user": "wfy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "eventtok-nvk",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 21600,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41260252",
+        "user": "wfy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "eventtok-nvk",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 21600,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41260252",
+        "user": "wfy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "eventtok-nvk",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 21600,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41260252",
+        "user": "wfy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "eventtok-nvk",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 21600,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41260252",
+        "user": "wfy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "eventtok-nvk",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 21600,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41260252",
+        "user": "wfy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "eventtok-nvk",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 21600,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41260252",
+        "user": "wfy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "eventtok-nvk",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 21600,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41260875",
+        "user": "sjmathy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "spring-v7-pilot",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 7200,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 51539607552,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41260871",
+        "user": "wfy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "eventtok-nvk",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 21600,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41212296",
+        "user": "akiruga",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "ov384_re10k_raw",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 14400,
+        "gpus": 2,
+        "cpus": 16,
+        "mem_bytes": 751619276800,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41261358",
+        "user": "wfy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "eventtok-nvk",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 21600,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41261358",
+        "user": "wfy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "eventtok-nvk",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 21600,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41261358",
+        "user": "wfy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "eventtok-nvk",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 21600,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41261358",
+        "user": "wfy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "eventtok-nvk",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 21600,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41262183",
+        "user": "sjmathy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "fric-natural",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 1800,
+        "gpus": 1,
+        "cpus": 12,
+        "mem_bytes": 68719476736,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41262331",
+        "user": "sjmathy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "spring-v7-eval",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41262331",
+        "user": "sjmathy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "spring-v7-eval",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41262331",
+        "user": "sjmathy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "spring-v7-eval",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41262331",
+        "user": "sjmathy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "spring-v7-eval",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41262331",
+        "user": "sjmathy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "spring-v7-eval",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41262331",
+        "user": "sjmathy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "spring-v7-eval",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41262331",
+        "user": "sjmathy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "spring-v7-eval",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41262331",
+        "user": "sjmathy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "spring-v7-eval",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41262331",
+        "user": "sjmathy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "spring-v7-eval",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41262331",
+        "user": "sjmathy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "spring-v7-eval",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41262331",
+        "user": "sjmathy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "spring-v7-eval",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41262331",
+        "user": "sjmathy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "spring-v7-eval",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41262331",
+        "user": "sjmathy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "spring-v7-eval",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41262331",
+        "user": "sjmathy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "spring-v7-eval",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41262331",
+        "user": "sjmathy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "spring-v7-eval",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41262331",
+        "user": "sjmathy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "spring-v7-eval",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41262331",
+        "user": "sjmathy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "spring-v7-eval",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41262331",
+        "user": "sjmathy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "spring-v7-eval",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41262159",
+        "user": "sjmathy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "spring-v7-wam",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 137438953472,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41262159",
+        "user": "sjmathy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "spring-v7-wam",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 137438953472,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41262159",
+        "user": "sjmathy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "spring-v7-wam",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 137438953472,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41262139",
+        "user": "sjmathy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "spring-v7-lat",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 10800,
+        "gpus": 1,
+        "cpus": 8,
+        "mem_bytes": 68719476736,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41262138",
+        "user": "sjmathy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "spring-v7-dp",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 137438953472,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41262138",
+        "user": "sjmathy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "spring-v7-dp",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 137438953472,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41261620",
+        "user": "sjmathy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "spring-v7-data",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 7200,
+        "gpus": 1,
+        "cpus": 6,
+        "mem_bytes": 25769803776,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41261620",
+        "user": "sjmathy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "spring-v7-data",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 7200,
+        "gpus": 1,
+        "cpus": 6,
+        "mem_bytes": 25769803776,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41261620",
+        "user": "sjmathy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "spring-v7-data",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 7200,
+        "gpus": 1,
+        "cpus": 6,
+        "mem_bytes": 25769803776,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41261620",
+        "user": "sjmathy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "spring-v7-data",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 7200,
+        "gpus": 1,
+        "cpus": 6,
+        "mem_bytes": 25769803776,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41261620",
+        "user": "sjmathy",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "spring-v7-data",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 7200,
+        "gpus": 1,
+        "cpus": 6,
+        "mem_bytes": 25769803776,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41256817",
+        "user": "akiruga",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "ov384_full_rq",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 28800,
+        "gpus": 2,
+        "cpus": 16,
+        "mem_bytes": 375809638400,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41253942",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "vtau-tr-s5",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41253941",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "vtau-tr-s4",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41253940",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "vtau-tr-s3",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41253939",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "vtau-tr-s2",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41253938",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "vtau-tr-s1",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41253937",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "vtau-tr-anchor",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41253936",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "vprog-tr",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 72000,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41253935",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "vsuc-tr",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 28800,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41253934",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "vw2-tr",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41253933",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "vw1-tr",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41253932",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "vpol-tr",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41253931",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "vtau-th-s5",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41253930",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "vtau-th-s4",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41253929",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "vtau-th-s3",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41253928",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "vtau-th-s2",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41253927",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "vtau-th-s1",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41253926",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "vtau-th-anchor",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41253925",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "vprog-th",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 72000,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41253924",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "vsuc-th",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 28800,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41253922",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "vw2-th",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41253921",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "vw1-th",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41253920",
+        "user": "dmejiagonzalez",
+        "account": "kempner_ydu_lab",
+        "partition": "kempner_requeue",
+        "state": "PD",
+        "name": "vpol-th",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 86400,
+        "gpus": 1,
+        "cpus": 16,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41253913",
+        "user": "dmejiagonzalez",
+        "account": "ydu_lab",
+        "partition": "sapphire",
+        "state": "PD",
+        "name": "mrg-tr",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 7200,
+        "gpus": 0,
+        "cpus": 4,
+        "mem_bytes": 34359738368,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41253912",
+        "user": "dmejiagonzalez",
+        "account": "ydu_lab",
+        "partition": "sapphire",
+        "state": "PD",
+        "name": "mrg-th",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 7200,
+        "gpus": 0,
+        "cpus": 4,
+        "mem_bytes": 34359738368,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41256272",
+        "user": "xswu",
+        "account": "ydu_lab",
+        "partition": "serial_requeue",
+        "state": "PD",
+        "name": "rlb3_rgbw_fs_watch100p",
+        "nodelist": "",
+        "reason": "Priority",
+        "elapsed_s": 0,
+        "limit_s": 300,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 2147483648,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "39816907",
+        "user": "haoyuchen54",
+        "account": "ydu_lab",
+        "partition": "shared",
+        "state": "PD",
+        "name": "labdash_alert",
+        "nodelist": "",
+        "reason": "BeginTime",
+        "elapsed_s": 0,
+        "limit_s": 600,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 2147483648,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "39816908",
+        "user": "haoyuchen54",
+        "account": "ydu_lab",
+        "partition": "shared",
+        "state": "PD",
+        "name": "roster",
+        "nodelist": "",
+        "reason": "BeginTime",
+        "elapsed_s": 0,
+        "limit_s": 900,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 2147483648,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "39816906",
+        "user": "haoyuchen54",
+        "account": "ydu_lab",
+        "partition": "shared",
+        "state": "PD",
+        "name": "dirscan_submit",
+        "nodelist": "",
+        "reason": "BeginTime",
+        "elapsed_s": 0,
+        "limit_s": 600,
+        "gpus": 0,
+        "cpus": 1,
+        "mem_bytes": 2147483648,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41262318",
+        "user": "sjmathy",
+        "account": "ydu_lab",
+        "partition": "shared",
+        "state": "PD",
+        "name": "spring-v7-lock",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 14400,
+        "gpus": 0,
+        "cpus": 4,
+        "mem_bytes": 68719476736,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41261992",
+        "user": "sjmathy",
+        "account": "ydu_lab",
+        "partition": "shared",
+        "state": "PD",
+        "name": "spring-v7-prep",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 10800,
+        "gpus": 0,
+        "cpus": 16,
+        "mem_bytes": 103079215104,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41261986",
+        "user": "sjmathy",
+        "account": "ydu_lab",
+        "partition": "shared",
+        "state": "PD",
+        "name": "spring-v7-audit",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 3600,
+        "gpus": 0,
+        "cpus": 4,
+        "mem_bytes": 17179869184,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      },
+      {
+        "jobid": "41261627",
+        "user": "sjmathy",
+        "account": "ydu_lab",
+        "partition": "shared",
+        "state": "PD",
+        "name": "spring-v7-valid",
+        "nodelist": "",
+        "reason": "Dependency",
+        "elapsed_s": 0,
+        "limit_s": 3600,
+        "gpus": 0,
+        "cpus": 8,
+        "mem_bytes": 34359738368,
+        "nodes": 1,
+        "gpu_model": "unspecified"
+      }
+    ],
+    "other": []
+  },
+  "users": [
+    {
+      "running_jobs": 21,
+      "running_gpus": 21,
+      "running_cpus": 156,
+      "pending_jobs": 24,
+      "pending_gpus": 22,
+      "gpu_seconds_inflight": 53031,
+      "gpu_hours_7d": 371.0,
+      "gpu_hours_30d": 1023.0,
+      "storage_bytes": 513248591872,
+      "user": "dmejiagonzalez"
+    },
+    {
+      "running_jobs": 7,
+      "running_gpus": 7,
+      "running_cpus": 7,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 76475,
+      "gpu_hours_7d": 450.0,
+      "gpu_hours_30d": 856.0,
+      "storage_bytes": 4014720679936,
+      "user": "hbalim"
+    },
+    {
+      "running_jobs": 7,
+      "running_gpus": 6,
+      "running_cpus": 82,
+      "pending_jobs": 12,
+      "pending_gpus": 18,
+      "gpu_seconds_inflight": 299040,
+      "gpu_hours_7d": 3588.0,
+      "gpu_hours_30d": 18577.0,
+      "storage_bytes": 13266080235520,
+      "user": "xswu"
+    },
+    {
+      "running_jobs": 5,
+      "running_gpus": 5,
+      "running_cpus": 80,
+      "pending_jobs": 3,
+      "pending_gpus": 4,
+      "gpu_seconds_inflight": 789680,
+      "gpu_hours_7d": 1678.0,
+      "gpu_hours_30d": 1915.0,
+      "storage_bytes": 640843513856,
+      "user": "jfan425"
+    },
+    {
+      "running_jobs": 1,
+      "running_gpus": 4,
+      "running_cpus": 8,
+      "pending_jobs": 1,
+      "pending_gpus": 4,
+      "gpu_seconds_inflight": 889680,
+      "gpu_hours_7d": 1167.0,
+      "gpu_hours_30d": 1852.0,
+      "storage_bytes": 2105043582976,
+      "user": "angelz"
+    },
+    {
+      "running_jobs": 2,
+      "running_gpus": 4,
+      "running_cpus": 56,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 239812,
+      "gpu_hours_7d": 914.0,
+      "gpu_hours_30d": 3172.0,
+      "storage_bytes": 1375463276544,
+      "user": "haonan"
+    },
+    {
+      "running_jobs": 1,
+      "running_gpus": 4,
+      "running_cpus": 32,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 101680,
+      "gpu_hours_7d": 146.0,
+      "gpu_hours_30d": 146.0,
+      "storage_bytes": 516469817344,
+      "user": "wxiong"
+    },
+    {
+      "running_jobs": 2,
+      "running_gpus": 4,
+      "running_cpus": 64,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 305096,
+      "gpu_hours_7d": 1395.0,
+      "gpu_hours_30d": 8691.0,
+      "storage_bytes": 808527593472,
+      "user": "susielu"
+    },
+    {
+      "running_jobs": 2,
+      "running_gpus": 4,
+      "running_cpus": 48,
+      "pending_jobs": 2,
+      "pending_gpus": 4,
+      "gpu_seconds_inflight": 36428,
+      "gpu_hours_7d": 2261.0,
+      "gpu_hours_30d": 8484.0,
+      "storage_bytes": 70323480297472,
+      "user": "akiruga"
+    },
+    {
+      "running_jobs": 2,
+      "running_gpus": 3,
+      "running_cpus": 32,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 316219,
+      "gpu_hours_7d": 478.0,
+      "gpu_hours_30d": 1230.0,
+      "storage_bytes": 4520982609920,
+      "user": "zhiyi24"
+    },
+    {
+      "running_jobs": 3,
+      "running_gpus": 3,
+      "running_cpus": 32,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 70647,
+      "gpu_hours_7d": 477.0,
+      "gpu_hours_30d": 4210.0,
+      "storage_bytes": 570455752704,
+      "user": "raywang4"
+    },
+    {
+      "running_jobs": 3,
+      "running_gpus": 3,
+      "running_cpus": 9,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 11698,
+      "gpu_hours_7d": 293.0,
+      "gpu_hours_30d": 1160.0,
+      "storage_bytes": 1582695448576,
+      "user": "wye"
+    },
+    {
+      "running_jobs": 2,
+      "running_gpus": 2,
+      "running_cpus": 64,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 120736,
+      "gpu_hours_7d": 589.0,
+      "gpu_hours_30d": 2209.0,
+      "storage_bytes": 1091241508864,
+      "user": "willgao"
+    },
+    {
+      "running_jobs": 2,
+      "running_gpus": 2,
+      "running_cpus": 2,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 4003,
+      "gpu_hours_7d": 7.0,
+      "gpu_hours_30d": 52.0,
+      "storage_bytes": 2794949967872,
+      "user": "atong"
+    },
+    {
+      "running_jobs": 1,
+      "running_gpus": 1,
+      "running_cpus": 8,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 74610,
+      "gpu_hours_7d": 898.0,
+      "gpu_hours_30d": 902.0,
+      "storage_bytes": 482110078976,
+      "user": "yuyaomit"
+    },
+    {
+      "running_jobs": 1,
+      "running_gpus": 1,
+      "running_cpus": 16,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 50771,
+      "gpu_hours_7d": 532.0,
+      "gpu_hours_30d": 3311.0,
+      "storage_bytes": 5068275318784,
+      "user": "gxu"
+    },
+    {
+      "running_jobs": 1,
+      "running_gpus": 1,
+      "running_cpus": 4,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 2089,
+      "gpu_hours_7d": 56.0,
+      "gpu_hours_30d": 226.0,
+      "storage_bytes": 1709396983808,
+      "user": "jaysonzlin"
+    },
+    {
+      "running_jobs": 12,
+      "running_gpus": 0,
+      "running_cpus": 96,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 36.0,
+      "gpu_hours_30d": 253.0,
+      "storage_bytes": 33473691648,
+      "user": "junxuans"
+    },
+    {
+      "running_jobs": 1,
+      "running_gpus": 0,
+      "running_cpus": 16,
+      "pending_jobs": 17,
+      "pending_gpus": 17,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 138.0,
+      "storage_bytes": 7907402842112,
+      "user": "wfy"
+    },
+    {
+      "running_jobs": 29,
+      "running_gpus": 0,
+      "running_cpus": 30,
+      "pending_jobs": 3,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 1842.0,
+      "storage_bytes": 562156273664,
+      "user": "haoyuchen54"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 2,
+      "pending_gpus": 2,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 104.0,
+      "gpu_hours_30d": 225.0,
+      "storage_bytes": 532575944704,
+      "user": "lyq"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 1,
+      "pending_gpus": 1,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 711.0,
+      "gpu_hours_30d": 1185.0,
+      "storage_bytes": 0,
+      "user": "alaprevotte"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 35,
+      "pending_gpus": 31,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 705.0,
+      "gpu_hours_30d": 2940.0,
+      "storage_bytes": 3317862236160,
+      "user": "sjmathy"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 137.0,
+      "gpu_hours_30d": 3669.0,
+      "storage_bytes": 250484883456,
+      "user": "akaran"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 3908.0,
+      "gpu_hours_30d": 8422.0,
+      "storage_bytes": 1970338267136,
+      "user": "asethi"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 202.0,
+      "gpu_hours_30d": 623.0,
+      "storage_bytes": 17705205760,
+      "user": "chengz12"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 932.0,
+      "gpu_hours_30d": 3417.0,
+      "storage_bytes": 7530151411712,
+      "user": "intlee"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 224.0,
+      "gpu_hours_30d": 1704.0,
+      "storage_bytes": 348265644032,
+      "user": "mbalcerak"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 1465.0,
+      "gpu_hours_30d": 1955.0,
+      "storage_bytes": 1030792151040,
+      "user": "rhoffman"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 81.0,
+      "gpu_hours_30d": 839.0,
+      "storage_bytes": 10639487533056,
+      "user": "scen"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 81.0,
+      "gpu_hours_30d": 588.0,
+      "storage_bytes": 0,
+      "user": "shixuang"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 434.0,
+      "gpu_hours_30d": 660.0,
+      "storage_bytes": 150323855360,
+      "user": "yji01"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 35.0,
+      "gpu_hours_30d": 813.0,
+      "storage_bytes": 1073741824000,
+      "user": "zoewu"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 267.0,
+      "gpu_hours_30d": 1608.0,
+      "storage_bytes": 27766963568640,
+      "user": "zpan"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 79.0,
+      "gpu_hours_30d": 228.0,
+      "storage_bytes": 24703401984,
+      "user": "akshitsingh"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 6.0,
+      "gpu_hours_30d": 6.0,
+      "storage_bytes": 1060856922112,
+      "user": "chaoqi"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 35.0,
+      "gpu_hours_30d": 41.0,
+      "storage_bytes": 457414017024,
+      "user": "hangxing"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 1.0,
+      "gpu_hours_30d": 633.0,
+      "storage_bytes": 2763811454976,
+      "user": "haoyux"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 354.0,
+      "gpu_hours_30d": 2335.0,
+      "storage_bytes": 1084044083200,
+      "user": "mkrasnow"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 34.0,
+      "storage_bytes": 196137189376,
+      "user": "sliaw"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 39.0,
+      "gpu_hours_30d": 986.0,
+      "storage_bytes": 608490749952,
+      "user": "wiko"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 17.0,
+      "gpu_hours_30d": 138.0,
+      "storage_bytes": 928786677760,
+      "user": "yxma"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 587.0,
+      "storage_bytes": 66950529024,
+      "user": "amei19"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 9.0,
+      "storage_bytes": 876544,
+      "user": "celindaz"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 41.0,
+      "storage_bytes": 0,
+      "user": "hangle"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 111.0,
+      "storage_bytes": 683073863680,
+      "user": "hhe"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 5.0,
+      "storage_bytes": 83140542464,
+      "user": "xczhang"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 93.0,
+      "storage_bytes": 0,
+      "user": "aoarga"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 592.0,
+      "storage_bytes": 60768124928,
+      "user": "celiazhang"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "dma04"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 388.0,
+      "storage_bytes": 290331820032,
+      "user": "ningshan"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 12.0,
+      "storage_bytes": 219160772608,
+      "user": "xinweisong"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 12729209323520,
+      "user": "rcai"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 2523147534336,
+      "user": "hzeng"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 1803450056704,
+      "user": "hcheung"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 1348619730944,
+      "user": "agladstone"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 1531155841024,
+      "user": "bdesinghu"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 517543559168,
+      "user": "bcupps"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 766651662336,
+      "user": "chenyuwang"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 228707008512,
+      "user": "ecakar"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 191126044672,
+      "user": "sgallaudet"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 3846143213568,
+      "user": "zhentingqi"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 359703511040,
+      "user": "pranavsitaraman"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 288836550656,
+      "user": "hlillemark"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 53110374400,
+      "user": "minli"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 106273177600,
+      "user": "zilindai"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 30520901632,
+      "user": "angelicakim"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 8406433792,
+      "user": "honam"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 68521984,
+      "user": "boyuanc"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 610959110144,
+      "user": "ydu"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 74595696640,
+      "user": "agopalakrishnan"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 33418117120,
+      "user": "alexishu"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "alliu"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "arodriguez314"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "atamhane"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "atharvjain"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "azabelo"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "chengxiz"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 8120172544,
+      "user": "dachuanzhao"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "ege"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "evankim"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 28054650880,
+      "user": "fnzhan"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 2376073216,
+      "user": "henhua"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "hkang342"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "jcshi"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "jiaweigao"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "jnair"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "jqin"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 657457152,
+      "user": "jshone"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "jun2026"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "junjiewang"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "jzheng7"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "kchattopadhyay"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "kcheung1"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 146028888064,
+      "user": "lilliansun"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "ndelcid"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "oscarhuang"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 17191403520,
+      "user": "pwu"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "runhanhuang"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "sachitg"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "serenawu"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "shayanp"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "whyz"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 20201865216,
+      "user": "xshan"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 6325010432,
+      "user": "yanbowang"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "yhluo"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "yhuang1"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 437012922368,
+      "user": "yinan"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "ylanaxu"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "yuchl"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 7475298304,
+      "user": "zhiyanli"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 17689477120,
+      "user": "zhwang"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "*space*"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "under"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 626688,
+      "user": "hguan"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "tianyuan"
+    },
+    {
+      "running_jobs": 0,
+      "running_gpus": 0,
+      "running_cpus": 0,
+      "pending_jobs": 0,
+      "pending_gpus": 0,
+      "gpu_seconds_inflight": 0,
+      "gpu_hours_7d": 0.0,
+      "gpu_hours_30d": 0.0,
+      "storage_bytes": 0,
+      "user": "wjiang"
+    }
+  ],
+  "gpu_models": {
+    "RTX PRO 6000": 14,
+    "H100": 11,
+    "H200": 21,
+    "A100": 29
+  },
+  "partitions": {
+    "gpu_requeue": {
+      "running_gpus": 10,
+      "pending_gpus": 28
+    },
+    "kempner_requeue": {
+      "running_gpus": 47,
+      "pending_gpus": 74
+    },
+    "kempner_h200": {
+      "running_gpus": 7,
+      "pending_gpus": 0
+    },
+    "kempner_h100": {
+      "running_gpus": 5,
+      "pending_gpus": 1
+    },
+    "gpu": {
+      "running_gpus": 1,
+      "pending_gpus": 0
+    },
+    "seas_gpu": {
+      "running_gpus": 1,
+      "pending_gpus": 0
+    },
+    "gpu_test": {
+      "running_gpus": 4,
+      "pending_gpus": 0
+    },
+    "unrestricted": {
+      "running_gpus": 0,
+      "pending_gpus": 0
+    },
+    "serial_requeue": {
+      "running_gpus": 0,
+      "pending_gpus": 0
+    },
+    "shared": {
+      "running_gpus": 0,
+      "pending_gpus": 0
+    },
+    "sapphire": {
+      "running_gpus": 0,
+      "pending_gpus": 0
+    }
+  },
+  "sreport_7d": {
+    "by_user": {
+      "akaran": {
+        "kempner_ydu_lab": 137.0
+      },
+      "akiruga": {
+        "kempner_ydu_lab": 1585.0,
+        "ydu_lab": 676.0
+      },
+      "alaprevotte": {
+        "kempner_ydu_lab": 639.0,
+        "ydu_lab": 72.0
+      },
+      "asethi": {
+        "kempner_ydu_lab": 3877.0,
+        "ydu_lab": 31.0
+      },
+      "atong": {
+        "kempner_ydu_lab": 1.0,
+        "ydu_lab": 6.0
+      },
+      "chengz12": {
+        "kempner_ydu_lab": 102.0,
+        "ydu_lab": 100.0
+      },
+      "dmejiagonzalez": {
+        "kempner_ydu_lab": 351.0,
+        "ydu_lab": 20.0
+      },
+      "gxu": {
+        "kempner_ydu_lab": 20.0,
+        "ydu_lab": 512.0
+      },
+      "haonan": {
+        "kempner_ydu_lab": 710.0,
+        "ydu_lab": 204.0
+      },
+      "haoyuchen54": {
+        "kempner_ydu_lab": 0.0,
+        "ydu_lab": 0.0
+      },
+      "hbalim": {
+        "kempner_ydu_lab": 450.0
+      },
+      "intlee": {
+        "kempner_ydu_lab": 894.0,
+        "ydu_lab": 38.0
+      },
+      "jfan425": {
+        "kempner_ydu_lab": 0.0,
+        "ydu_lab": 1678.0
+      },
+      "junxuans": {
+        "kempner_ydu_lab": 36.0,
+        "ydu_lab": 0.0
+      },
+      "mbalcerak": {
+        "kempner_ydu_lab": 224.0,
+        "ydu_lab": 0.0
+      },
+      "raywang4": {
+        "kempner_ydu_lab": 477.0,
+        "ydu_lab": 0.0
+      },
+      "rhoffman": {
+        "kempner_ydu_lab": 982.0,
+        "ydu_lab": 483.0
+      },
+      "scen": {
+        "kempner_ydu_lab": 81.0
+      },
+      "shixuang": {
+        "kempner_ydu_lab": 81.0
+      },
+      "sjmathy": {
+        "kempner_ydu_lab": 696.0,
+        "ydu_lab": 9.0
+      },
+      "susielu": {
+        "kempner_ydu_lab": 1169.0,
+        "ydu_lab": 226.0
+      },
+      "wfy": {
+        "kempner_ydu_lab": 0.0,
+        "ydu_lab": 0.0
+      },
+      "willgao": {
+        "kempner_ydu_lab": 235.0,
+        "ydu_lab": 354.0
+      },
+      "wxiong": {
+        "kempner_ydu_lab": 146.0,
+        "ydu_lab": 0.0
+      },
+      "wye": {
+        "kempner_ydu_lab": 293.0
+      },
+      "xswu": {
+        "kempner_ydu_lab": 527.0,
+        "ydu_lab": 3061.0
+      },
+      "yji01": {
+        "kempner_ydu_lab": 434.0
+      },
+      "yuyaomit": {
+        "kempner_ydu_lab": 898.0
+      },
+      "zhiyi24": {
+        "kempner_ydu_lab": 387.0,
+        "ydu_lab": 91.0
+      },
+      "zoewu": {
+        "kempner_ydu_lab": 35.0
+      },
+      "zpan": {
+        "kempner_ydu_lab": 267.0
+      },
+      "akshitsingh": {
+        "ydu_lab": 79.0
+      },
+      "angelz": {
+        "ydu_lab": 1167.0
+      },
+      "chaoqi": {
+        "ydu_lab": 6.0
+      },
+      "hangxing": {
+        "ydu_lab": 35.0
+      },
+      "haoyux": {
+        "ydu_lab": 1.0
+      },
+      "jaysonzlin": {
+        "ydu_lab": 56.0
+      },
+      "lyq": {
+        "ydu_lab": 104.0
+      },
+      "mkrasnow": {
+        "ydu_lab": 354.0
+      },
+      "sliaw": {
+        "ydu_lab": 0.0
+      },
+      "wiko": {
+        "ydu_lab": 39.0
+      },
+      "yxma": {
+        "ydu_lab": 17.0
+      }
+    },
+    "by_account": {
+      "kempner_ydu_lab": 15736.0,
+      "ydu_lab": 9422.0
+    },
+    "days": 7
+  },
+  "sreport_30d": {
+    "by_user": {
+      "akaran": {
+        "kempner_ydu_lab": 3669.0
+      },
+      "akiruga": {
+        "kempner_ydu_lab": 7224.0,
+        "ydu_lab": 1260.0
+      },
+      "alaprevotte": {
+        "kempner_ydu_lab": 1023.0,
+        "ydu_lab": 162.0
+      },
+      "amei19": {
+        "kempner_ydu_lab": 397.0,
+        "ydu_lab": 190.0
+      },
+      "asethi": {
+        "kempner_ydu_lab": 8293.0,
+        "ydu_lab": 129.0
+      },
+      "atong": {
+        "kempner_ydu_lab": 8.0,
+        "ydu_lab": 44.0
+      },
+      "celindaz": {
+        "kempner_ydu_lab": 1.0,
+        "ydu_lab": 8.0
+      },
+      "chengz12": {
+        "kempner_ydu_lab": 102.0,
+        "ydu_lab": 521.0
+      },
+      "dmejiagonzalez": {
+        "kempner_ydu_lab": 999.0,
+        "ydu_lab": 24.0
+      },
+      "gxu": {
+        "kempner_ydu_lab": 1824.0,
+        "ydu_lab": 1487.0
+      },
+      "hangle": {
+        "kempner_ydu_lab": 41.0
+      },
+      "haonan": {
+        "kempner_ydu_lab": 2968.0,
+        "ydu_lab": 204.0
+      },
+      "haoyuchen54": {
+        "kempner_ydu_lab": 1820.0,
+        "ydu_lab": 22.0
+      },
+      "hbalim": {
+        "kempner_ydu_lab": 856.0
+      },
+      "hhe": {
+        "kempner_ydu_lab": 111.0
+      },
+      "intlee": {
+        "kempner_ydu_lab": 3263.0,
+        "ydu_lab": 154.0
+      },
+      "jfan425": {
+        "kempner_ydu_lab": 10.0,
+        "ydu_lab": 1905.0
+      },
+      "junxuans": {
+        "kempner_ydu_lab": 253.0,
+        "ydu_lab": 0.0
+      },
+      "mbalcerak": {
+        "kempner_ydu_lab": 1700.0,
+        "ydu_lab": 4.0
+      },
+      "raywang4": {
+        "kempner_ydu_lab": 4138.0,
+        "ydu_lab": 72.0
+      },
+      "rhoffman": {
+        "kempner_ydu_lab": 1190.0,
+        "ydu_lab": 765.0
+      },
+      "scen": {
+        "kempner_ydu_lab": 839.0
+      },
+      "shixuang": {
+        "kempner_ydu_lab": 588.0
+      },
+      "sjmathy": {
+        "kempner_ydu_lab": 2264.0,
+        "ydu_lab": 676.0
+      },
+      "sliaw": {
+        "kempner_ydu_lab": 0.0,
+        "ydu_lab": 34.0
+      },
+      "susielu": {
+        "kempner_ydu_lab": 5798.0,
+        "ydu_lab": 2893.0
+      },
+      "wfy": {
+        "kempner_ydu_lab": 85.0,
+        "ydu_lab": 53.0
+      },
+      "willgao": {
+        "kempner_ydu_lab": 1563.0,
+        "ydu_lab": 646.0
+      },
+      "wxiong": {
+        "kempner_ydu_lab": 146.0,
+        "ydu_lab": 0.0
+      },
+      "wye": {
+        "kempner_ydu_lab": 1138.0,
+        "ydu_lab": 22.0
+      },
+      "xczhang": {
+        "kempner_ydu_lab": 3.0,
+        "ydu_lab": 2.0
+      },
+      "xswu": {
+        "kempner_ydu_lab": 3017.0,
+        "ydu_lab": 15560.0
+      },
+      "yji01": {
+        "kempner_ydu_lab": 597.0,
+        "ydu_lab": 63.0
+      },
+      "yuyaomit": {
+        "kempner_ydu_lab": 902.0
+      },
+      "zhiyi24": {
+        "kempner_ydu_lab": 817.0,
+        "ydu_lab": 413.0
+      },
+      "zoewu": {
+        "kempner_ydu_lab": 813.0
+      },
+      "zpan": {
+        "kempner_ydu_lab": 1608.0
+      },
+      "akshitsingh": {
+        "ydu_lab": 228.0
+      },
+      "angelz": {
+        "ydu_lab": 1852.0
+      },
+      "aoarga": {
+        "ydu_lab": 93.0
+      },
+      "celiazhang": {
+        "ydu_lab": 592.0
+      },
+      "chaoqi": {
+        "ydu_lab": 6.0
+      },
+      "dma04": {
+        "ydu_lab": 0.0
+      },
+      "hangxing": {
+        "ydu_lab": 41.0
+      },
+      "haoyux": {
+        "ydu_lab": 633.0
+      },
+      "jaysonzlin": {
+        "ydu_lab": 226.0
+      },
+      "lyq": {
+        "ydu_lab": 225.0
+      },
+      "mkrasnow": {
+        "ydu_lab": 2335.0
+      },
+      "ningshan": {
+        "ydu_lab": 388.0
+      },
+      "wiko": {
+        "ydu_lab": 986.0
+      },
+      "xinweisong": {
+        "ydu_lab": 12.0
+      },
+      "yxma": {
+        "ydu_lab": 138.0
+      }
+    },
+    "by_account": {
+      "kempner_ydu_lab": 60065.0,
+      "ydu_lab": 35068.0
+    },
+    "days": 30
+  },
+  "fairshare": {
+    "kempner_ydu_lab": {
+      "raw_shares": "99253",
+      "norm_shares": 0.02772,
+      "raw_usage": 37001394357.0,
+      "effective_usage": 0.050801,
+      "level_fs": 0.0
+    },
+    "ydu_lab": {
+      "raw_shares": "42197",
+      "norm_shares": 0.011785,
+      "raw_usage": 12631563348.0,
+      "effective_usage": 0.017344,
+      "level_fs": 0.0
+    }
+  },
+  "storage": [
+    {
+      "group": "ydu_lab",
+      "path": "/n/lab_storage/ydu_lab",
+      "used_bytes": 97215056445440,
+      "quota_bytes": 109951162777600,
+      "files": null,
+      "file_quota": null,
+      "updated": "2026-08-22 18:45:34",
+      "source": "df-fileset"
+    },
+    {
+      "group": "ydu_lab",
+      "path": "/n/netscratch",
+      "used_bytes": 107202383708160,
+      "quota_bytes": 109951162777600,
+      "files": 48074856,
+      "file_quota": 100000000,
+      "updated": "2026-08-22 18:40:04",
+      "source": "quota"
+    },
+    {
+      "group": "kempner_ydu_lab",
+      "path": "/n/netscratch",
+      "used_bytes": 30566423252172,
+      "quota_bytes": 54975581388800,
+      "files": 16431193,
+      "file_quota": 100000000,
+      "updated": "2026-08-22 18:40:04",
+      "source": "quota"
+    },
+    {
+      "group": "ydu_lab",
+      "path": "/n/holylabs",
+      "used_bytes": 3078632557772,
+      "quota_bytes": 4398046511104,
+      "files": 7353846,
+      "file_quota": 10000000,
+      "updated": "2026-08-22 18:40:04",
+      "source": "quota"
+    },
+    {
+      "group": "kempner_ydu_lab",
+      "path": "/n/holylabs",
+      "used_bytes": 143022410956,
+      "quota_bytes": 4398046511104,
+      "files": 146871,
+      "file_quota": 10000000,
+      "updated": "2026-08-22 18:40:04",
+      "source": "quota"
+    }
+  ],
+  "storage_by_user": [
+    {
+      "path": "/n/netscratch",
+      "groups": [
+        "ydu_lab",
+        "kempner_ydu_lab"
+      ],
+      "updated": "2026-08-22 00:18:54",
+      "rows": [
+        {
+          "user": "akiruga",
+          "bytes": 70272107413504,
+          "files": 39677000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "zpan",
+          "bytes": 24059333050368,
+          "files": 777000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "xswu",
+          "bytes": 13266080235520,
+          "files": 3648000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "scen",
+          "bytes": 10597831802880,
+          "files": 1475000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "rcai",
+          "bytes": 10065255858176,
+          "files": 1094000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "wfy",
+          "bytes": 7903813566464,
+          "files": 1960000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "intlee",
+          "bytes": 7295001952256,
+          "files": 237000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "gxu",
+          "bytes": 4976793354240,
+          "files": 1543000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "zhiyi24",
+          "bytes": 4443143667712,
+          "files": 2959000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "hbalim",
+          "bytes": 3584150208512,
+          "files": 523000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "sjmathy",
+          "bytes": 3071975358464,
+          "files": 5628000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "atong",
+          "bytes": 2794949967872,
+          "files": 354000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "haoyux",
+          "bytes": 2763811454976,
+          "files": 1453000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "hzeng",
+          "bytes": 2518998319104,
+          "files": 742000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "angelz",
+          "bytes": 2086280364032,
+          "files": 1195000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "asethi",
+          "bytes": 1906965479424,
+          "files": 873000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "hcheung",
+          "bytes": 1797443813376,
+          "files": 7101,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "wye",
+          "bytes": 1582695448576,
+          "files": 792000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "jaysonzlin",
+          "bytes": 1541893259264,
+          "files": 178000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "haonan",
+          "bytes": 1375463276544,
+          "files": 199000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "agladstone",
+          "bytes": 1348619730944,
+          "files": 188000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "bdesinghu",
+          "bytes": 1163936137216,
+          "files": 584000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "zoewu",
+          "bytes": 1073741824000,
+          "files": 446000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "willgao",
+          "bytes": 1067299373056,
+          "files": 12453,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "chaoqi",
+          "bytes": 1060856922112,
+          "files": 10733,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "rhoffman",
+          "bytes": 1030792151040,
+          "files": 235000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "mkrasnow",
+          "bytes": 1006096089088,
+          "files": 268000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "yxma",
+          "bytes": 928786677760,
+          "files": 108000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "hhe",
+          "bytes": 676457349120,
+          "files": 365000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "jfan425",
+          "bytes": 599147937792,
+          "files": 234000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "wiko",
+          "bytes": 593779228672,
+          "files": 86394,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "raywang4",
+          "bytes": 569083166720,
+          "files": 439000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "haoyuchen54",
+          "bytes": 551903297536,
+          "files": 225000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "lyq",
+          "bytes": 532575944704,
+          "files": 1797000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "bcupps",
+          "bytes": 517543559168,
+          "files": 6418,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "dmejiagonzalez",
+          "bytes": 513248591872,
+          "files": 57508,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "chenyuwang",
+          "bytes": 497142464512,
+          "files": 972000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "yuyaomit",
+          "bytes": 482110078976,
+          "files": 175000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "hangxing",
+          "bytes": 457414017024,
+          "files": 182000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "wxiong",
+          "bytes": 390842023936,
+          "files": 134000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "mbalcerak",
+          "bytes": 302795194368,
+          "files": 75596,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "ningshan",
+          "bytes": 285615325184,
+          "files": 268000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "susielu",
+          "bytes": 266287972352,
+          "files": 416000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "ecakar",
+          "bytes": 228707008512,
+          "files": 134000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "xinweisong",
+          "bytes": 208305913856,
+          "files": 362000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "sgallaudet",
+          "bytes": 191126044672,
+          "files": 1076,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "sliaw",
+          "bytes": 183609851904,
+          "files": 146000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "zhentingqi",
+          "bytes": 155692564480,
+          "files": 151000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "yji01",
+          "bytes": 150323855360,
+          "files": 14516,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "pranavsitaraman",
+          "bytes": 148176371712,
+          "files": 221000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "hlillemark",
+          "bytes": 133143986176,
+          "files": 275000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "amei19",
+          "bytes": 64508395520,
+          "files": 647000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "minli",
+          "bytes": 53110374400,
+          "files": 48863,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "zilindai",
+          "bytes": 36940283904,
+          "files": 216000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "xczhang",
+          "bytes": 36038508544,
+          "files": 62415,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "angelicakim",
+          "bytes": 30520901632,
+          "files": 2760,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "junxuans",
+          "bytes": 16064184320,
+          "files": 466000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "honam",
+          "bytes": 8406433792,
+          "files": 60664,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "akaran",
+          "bytes": 6745489408,
+          "files": 4225,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "boyuanc",
+          "bytes": 68521984,
+          "files": 333000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "celindaz",
+          "bytes": 876544,
+          "files": 86,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "ydu",
+          "bytes": 12288,
+          "files": 2359000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "agopalakrishnan",
+          "bytes": 0,
+          "files": 1161,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "akshitsingh",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "alaprevotte",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "alexishu",
+          "bytes": 0,
+          "files": 67,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "alliu",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "aoarga",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "arodriguez314",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "atamhane",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "atharvjain",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "azabelo",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "celiazhang",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "chengxiz",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "chengz12",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "dachuanzhao",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "dma04",
+          "bytes": 0,
+          "files": 15,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "ege",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "evankim",
+          "bytes": 0,
+          "files": 1,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "fnzhan",
+          "bytes": 0,
+          "files": 249000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "hangle",
+          "bytes": 0,
+          "files": 1,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "henhua",
+          "bytes": 0,
+          "files": 1,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "hkang342",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "jcshi",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "jiaweigao",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "jnair",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "jqin",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "jshone",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "jun2026",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "junjiewang",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "jzheng7",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "kchattopadhyay",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "kcheung1",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "lilliansun",
+          "bytes": 0,
+          "files": 7270,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "ndelcid",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "oscarhuang",
+          "bytes": 0,
+          "files": 2220000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "pwu",
+          "bytes": 0,
+          "files": 28879,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "runhanhuang",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "sachitg",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "serenawu",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "shayanp",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "shixuang",
+          "bytes": 0,
+          "files": 7,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "whyz",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "xshan",
+          "bytes": 0,
+          "files": 135000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "yanbowang",
+          "bytes": 0,
+          "files": 58,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "yhluo",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "yhuang1",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "yinan",
+          "bytes": 0,
+          "files": 2,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "ylanaxu",
+          "bytes": 0,
+          "files": 3411,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "yuchl",
+          "bytes": 0,
+          "files": 317,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "zhiyanli",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "zhwang",
+          "bytes": 0,
+          "files": 5,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "*space*",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "under",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "hguan",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "tianyuan",
+          "bytes": 0,
+          "files": 1433,
+          "groups": [
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "wjiang",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "kempner_ydu_lab"
+          ]
+        }
+      ],
+      "group_used_bytes": 137768806960332,
+      "group_quota_bytes": 164926744166400
+    },
+    {
+      "path": "/n/holylabs",
+      "groups": [
+        "ydu_lab",
+        "kempner_ydu_lab"
+      ],
+      "updated": "2026-08-22 00:18:54",
+      "rows": [
+        {
+          "user": "zpan",
+          "bytes": 3707630518272,
+          "files": 2717000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "zhentingqi",
+          "bytes": 3690450649088,
+          "files": 1552000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "rcai",
+          "bytes": 2663953465344,
+          "files": 1988000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "ydu",
+          "bytes": 610959097856,
+          "files": 871000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "susielu",
+          "bytes": 542239621120,
+          "files": 1164000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "yinan",
+          "bytes": 437012922368,
+          "files": 261000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "hbalim",
+          "bytes": 430570471424,
+          "files": 50452,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "bdesinghu",
+          "bytes": 367219703808,
+          "files": 315000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "chenyuwang",
+          "bytes": 269509197824,
+          "files": 4811000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "sjmathy",
+          "bytes": 245886877696,
+          "files": 70692,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "akaran",
+          "bytes": 243739394048,
+          "files": 5858,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "intlee",
+          "bytes": 235149459456,
+          "files": 570000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "pranavsitaraman",
+          "bytes": 211527139328,
+          "files": 392000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "jaysonzlin",
+          "bytes": 167503724544,
+          "files": 853000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "hlillemark",
+          "bytes": 155692564480,
+          "files": 80490,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "lilliansun",
+          "bytes": 146028888064,
+          "files": 455000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "wxiong",
+          "bytes": 125627793408,
+          "files": 204000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "gxu",
+          "bytes": 91481964544,
+          "files": 875000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "mkrasnow",
+          "bytes": 77947994112,
+          "files": 45889,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "zhiyi24",
+          "bytes": 77838942208,
+          "files": 712000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "agopalakrishnan",
+          "bytes": 74595696640,
+          "files": 1906,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "zilindai",
+          "bytes": 69332893696,
+          "files": 477000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "asethi",
+          "bytes": 63372787712,
+          "files": 55632,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "celiazhang",
+          "bytes": 60768124928,
+          "files": 3685,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "akiruga",
+          "bytes": 51372883968,
+          "files": 16265,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "xczhang",
+          "bytes": 47102033920,
+          "files": 21692,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "mbalcerak",
+          "bytes": 45470449664,
+          "files": 4785,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "jfan425",
+          "bytes": 41695576064,
+          "files": 254000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "scen",
+          "bytes": 41655730176,
+          "files": 346000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "alexishu",
+          "bytes": 33418117120,
+          "files": 107000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "fnzhan",
+          "bytes": 28054650880,
+          "files": 117000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "akshitsingh",
+          "bytes": 24703401984,
+          "files": 4,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "willgao",
+          "bytes": 23942135808,
+          "files": 1238,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "xshan",
+          "bytes": 20201865216,
+          "files": 69393,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "angelz",
+          "bytes": 18763218944,
+          "files": 12944,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "chengz12",
+          "bytes": 17705205760,
+          "files": 139000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "zhwang",
+          "bytes": 17689477120,
+          "files": 77868,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "junxuans",
+          "bytes": 17409507328,
+          "files": 158000,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "pwu",
+          "bytes": 17191403520,
+          "files": 63297,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "wiko",
+          "bytes": 14711521280,
+          "files": 99734,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "sliaw",
+          "bytes": 12527337472,
+          "files": 29339,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "xinweisong",
+          "bytes": 10854858752,
+          "files": 77022,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "haoyuchen54",
+          "bytes": 10252976128,
+          "files": 71263,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "dachuanzhao",
+          "bytes": 8120172544,
+          "files": 49046,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "zhiyanli",
+          "bytes": 7475298304,
+          "files": 35922,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "hhe",
+          "bytes": 6616514560,
+          "files": 4662,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "yanbowang",
+          "bytes": 6325010432,
+          "files": 77095,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "hcheung",
+          "bytes": 6006243328,
+          "files": 9490,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "ningshan",
+          "bytes": 4716494848,
+          "files": 1427,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "hzeng",
+          "bytes": 4149215232,
+          "files": 438,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "wfy",
+          "bytes": 3589275648,
+          "files": 46043,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "amei19",
+          "bytes": 2442133504,
+          "files": 9289,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "henhua",
+          "bytes": 2376073216,
+          "files": 2872,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "raywang4",
+          "bytes": 1372585984,
+          "files": 7175,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "jshone",
+          "bytes": 657457152,
+          "files": 35,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "hguan",
+          "bytes": 626688,
+          "files": 5,
+          "groups": [
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "agladstone",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "alaprevotte",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "alliu",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "angelicakim",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "aoarga",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "arodriguez314",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "atamhane",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "atharvjain",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "atong",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "azabelo",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "bcupps",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "boyuanc",
+          "bytes": 0,
+          "files": 1,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "celindaz",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "chaoqi",
+          "bytes": 0,
+          "files": 1,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "chengxiz",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "dma04",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "dmejiagonzalez",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "ecakar",
+          "bytes": 0,
+          "files": 1,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "ege",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "evankim",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "hangle",
+          "bytes": 0,
+          "files": 1,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "hangxing",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "haonan",
+          "bytes": 0,
+          "files": 1,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "haoyux",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "hkang342",
+          "bytes": 0,
+          "files": 1,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "honam",
+          "bytes": 0,
+          "files": 1,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "jcshi",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "jiaweigao",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "jnair",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "jqin",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "jun2026",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "junjiewang",
+          "bytes": 0,
+          "files": 1,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "jzheng7",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "kchattopadhyay",
+          "bytes": 0,
+          "files": 1,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "kcheung1",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "lyq",
+          "bytes": 0,
+          "files": 5,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "minli",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "ndelcid",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "oscarhuang",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "rhoffman",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "runhanhuang",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "sachitg",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "serenawu",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "sgallaudet",
+          "bytes": 0,
+          "files": 1,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "shayanp",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "shixuang",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "whyz",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "wye",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "xswu",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "yhluo",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "yhuang1",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "yji01",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "ylanaxu",
+          "bytes": 0,
+          "files": 1,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "yuchl",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "yuyaomit",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "yxma",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "zoewu",
+          "bytes": 0,
+          "files": 1,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "*space*",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "under",
+          "bytes": 0,
+          "files": 0,
+          "groups": [
+            "ydu_lab",
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "tianyuan",
+          "bytes": 0,
+          "files": 1,
+          "groups": [
+            "kempner_ydu_lab"
+          ]
+        },
+        {
+          "user": "wjiang",
+          "bytes": 0,
+          "files": 1,
+          "groups": [
+            "kempner_ydu_lab"
+          ]
+        }
+      ],
+      "group_used_bytes": 3221654968728,
+      "group_quota_bytes": 8796093022208
+    }
+  ],
+  "folders": [
+    "/n/holylabs/LABS/ydu_lab",
+    "/n/holylabs/LABS/kempner_ydu_lab",
+    "/n/netscratch/ydu_lab",
+    "/n/lab_storage/ydu_lab"
+  ],
+  "totals": {
+    "running_jobs": 105,
+    "pending_jobs": 100,
+    "running_gpus": 75,
+    "pending_gpus": 103,
+    "active_users": 20,
+    "queued_users": 10
+  }
+}
